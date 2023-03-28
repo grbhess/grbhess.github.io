@@ -1,3 +1,4 @@
+701704709,Fermi-GBM,2023-03-28<br>13:58:24 UTC,195.056640625 deg<br> (13h07m19.2s),-0.746059878183 deg<br> (+01d08'24''),2023-03-28<br>22:08:53 UTC (T0 + 8.17h),2023-03-29<br>03:19:36 UTC (T0 + 13.35h),Tiled,Manual,
 GRB230325A,SWIFT-BAT,2023-03-25<br>03:15:35 UTC,296.8202 deg<br>(19h47m16.848s),-46.0941 deg<br>(-46d05'38.76''),2023-03-25<br>03:16:11 UTC (T0 + 0.01h),2023-03-25<br>03:53:02 UTC (T0 + 0.62h),Pointed,Automatic, Jean Damascene Mbarubucyeye 
 GRB230216A,SWIFT-BAT,2023-02-16<br>14:48:34 UTC,113.966 deg<br> (07h35m51.84s),-8.0151 deg<br> (-08d00'54.36''),multiple nights,,Pointed,Manual,Stijn Groeneveld
 GRB230124A,FERMI-GBM,2023-01-24<br>15:18:46 UTC,67.17 deg<br>(04h28m41s),-1.45 deg<br>(-01d27m00s),2023-01-24<br>21:29:46 UTC (T0 + 6.2h),2023-01-24<br>22:59:46 UTC (T0 + 7.7h),Tiled,Manual,Ruslan Konno
