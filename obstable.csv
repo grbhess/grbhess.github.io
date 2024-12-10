@@ -1,5 +1,5 @@
-1273106,SWIFT-BAT,2024-12-09<br>10:59:46 UTC,190.1108 deg<br> (12h40m26.592s),-2.8786 deg<br> (-02d52'42.96''),2024-12-10<br>02:25:06 UTC (T0 + 15.42h),2024-12-10<br>02:42:46 UTC (T0 + 15.72h),Pointed,Manual,
-1273071,SWIFT-BAT,2024-12-09<br>05:35:44 UTC,155.3758 deg<br> (10h21m30.192s),6.316 deg<br> (+06d18'57.6''),2024-12-10<br>00:25:58 UTC (T0 + 18.84h),2024-12-10<br>02:42:20 UTC (T0 + 21.11h),Pointed,Manual,
+GRB 241209D,SWIFT-BAT,2024-12-09<br>10:59:46 UTC,190.1108 deg<br> (12h40m26.592s),-2.8786 deg<br> (-02d52'42.96''),Cancelled (small visibility window),,Pointed,Manual,Pierre Pichard
+GRB 241209A,SWIFT-BAT,2024-12-09<br>05:35:44 UTC,155.3758 deg<br> (10h21m30.192s),6.316 deg<br> (+06d18'57.6''),Cancelled (high redshift, low X-Ray flux),,Pointed,Manual,Pierre Pichard
 GRB 241130A,Fermi-GBM,2024-11-30<br>23:13:45 UTC,100.29 deg<br> (06h41m9.6s),-26.38 deg<br> (-26d22'48''),2024-12-01<br>00:24:58 UTC (T0 + 1.2h),2024-12-01<br>02:43:51 UTC (T0 + 3.5h),Pointed,Manual,Bernardo Cornejo
 1270788 (retracted),SWIFT-BAT,2024-11-27<br>21:43:16 UTC,327.9222 deg<br> (21h51m41.328s),-56.6853 deg<br> (-56d41'07.08''),Cancelled (Too long after event),,Pointed,Manual,Bernardo Cornejo
 GRB 241105A,Fermi-GBM,2024-11-05<br>16:06:04 UTC,66.24 deg<br> (04h24m59.0s),-49.75 deg<br> (-49d45'09.3''),2024-11-05<br>22:00:00 UTC (T0 + 5.9h),2024-11-06<br>02:30:00 UTC (T0 + 10.4h),Pointed,Manual,Bernardo Cornejo
