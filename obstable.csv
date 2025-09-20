@@ -1,4 +1,5 @@
-250919020,Fermi-LAT,2025-09-19<br>00:28:52 UTC,298.5199 deg<br> (19h54m04.776s),-48.8299 deg<br> (-48d49'47.64''),2025-09-19<br>17:57:11 UTC (T0 + 17.47h),2025-09-19<br>23:33:01 UTC (T0 + 23.07h),Pointed,Manual,
+GRB 250920C, Swift, 2025-09-20<br>15:27:21 UTC, 51.464 deg<br> (3h25m51.46s), -29.657  deg<br> (-29d39m23.76s), 2025-09-20<br>21h51 UTC (T0 + 6.24h), 2025-09-21<br>03h37 UTC (T0 + 12.10h), Pointed, Manual, Dirk van der Geest
+GRB 250919A,Fermi-LAT,2025-09-19<br>00:28:52 UTC,298.5199 deg<br> (19h54m04.776s),-48.8299 deg<br> (-48d49'47.64''),Cancelled (Bad weather),,Pointed,Manual,
 GRB 250917B,SWIFT-BAT,2025-09-17<br>06:27:44 UTC,291.3777 deg<br> (19h25m30.648s),11.1132 deg<br> (+11d06'47.52''),2025-09-17<br>17:55:37 UTC (T0 + 11.46h),2025-09-17<br>21:52:58 UTC (T0 + 15.42h),Pointed,Manual, Dirk van der Geest
 GRB 250911A, SWIFT-BAT, 2025-09-11<br>01:27:46 UTC, 263.750 deg<br> (17h35m0.03s), -16.854  deg<br> (-16d51m15.05s), 2025-09-11<br>18h25 UTC (T0 + 16.95h), 2025-09-11<br>20h51 UTC (T0 + 19.23h), Pointed, Manual, Dirk van der Geest 
 GRB 250904A,SWIFT-BAT,2025-09-04<br>17:37:03 UTC,84.3577 deg<br> (05h37m25.848s),3.5845 deg<br> (+03d35'04.2''),Cancelled (short observation time),,Pointed,Manual, Wassim Si Said
