@@ -57,8 +57,8 @@ GRB 241030B,SWIFT-BAT,2024-10-30<br>18:34:20 UTC,50.7882 deg<br> (03h23m09.168s)
 GRB 241029A,SVOM-Eclair,2024-10-29<br>02:19:53 UTC,325.33 deg<br> (21h41m18.48s),5.090 deg<br> (5d5'9.6''),2024-10-29<br>19:16:27 UTC (T0 + 16.9h),2024-10-09<br>20:43:05 UTC (T0 + 18.4h),Tiled,Manual,Mathieu de Bony
 GRB 241008A,Fermi-GBM,2024-10-08<br>22:00:04 UTC,112.87 deg<br> (07h31m28.8s),-14.48 deg<br> (-14d28'48''),2024-10-09<br>00:58:22 UTC (T0 + 2.9h),2024-10-09<br>03:25:40 UTC (T0 + 5.4h),Tiled,Manual,Bernardo Cornejo
 GRB 241006A,SWIFT-BAT,2024-10-06<br>21:51:58 UTC,304.7942 deg<br> (20h19m10.608s),-40.7959 deg<br> (-40d47'45.24''),Cancelled (bad weather),,Pointed,Automatic,Bernardo Cornejo
-GRB241002C,SVOM-Eclair,2024-10-02<br>09:20:48 UTC,62.45 deg<br> (4h9m48s),-7.91 deg<br> (-7d54'36''),2024-10-02<br>23:22:18 UTC (T0 + 14.03h),2024-10-03<br>03:25:18 UTC (T0 + 18.08h),Pointed,Manual,Halim Ashkar
-GRB241001A,SVOM-Eclair,2024-10-01<br>17:08:45 UTC,20.42 deg<br> (1h21m40.8s),-43.53 deg<br> (-43d31'48''),2024-10-02<br>20:28:18 UTC (T0 + 27.32h),2024-10-02<br>21:06:18 UTC (T0 + 27.96h),Pointed,Manual,Halim Ashkar
+GRB 241002C,SVOM-Eclair,2024-10-02<br>09:20:48 UTC,62.45 deg<br> (4h9m48s),-7.91 deg<br> (-7d54'36''),2024-10-02<br>23:22:18 UTC (T0 + 14.03h),2024-10-03<br>03:25:18 UTC (T0 + 18.08h),Pointed,Manual,Halim Ashkar
+GRB 241001A,SVOM-Eclair,2024-10-01<br>17:08:45 UTC,20.42 deg<br> (1h21m40.8s),-43.53 deg<br> (-43d31'48''),2024-10-02<br>20:28:18 UTC (T0 + 27.32h),2024-10-02<br>21:06:18 UTC (T0 + 27.96h),Pointed,Manual,Halim Ashkar
 GRB 240905E,SWIFT-BAT,2024-09-05<br>18:26:03 UTC,345.7993 deg<br> (23h03m11.832s),35.4951 deg<br> (+35d29'42.36''),Cancelled (observation constraint),,Pointed,Manual,Mathieu de Bony
 746882332 (retracted),Fermi-GBM,2024-09-01<br>11:18:47 UTC,353.96 deg<br> (23h35m50.4s),-26.78 deg<br> (-26d46'48''),Cancelled (not a GRB),,Tiled,Manual,Mathieu de Bony
 GRB 240825A,SWIFT-BAT,2024-08-25<br>15:52:59 UTC,344.5512 deg<br> (22h58m12.288s),1.036 deg<br> (+01d02'09.6''),2024-08-25<br>19:51:28 UTC (T0 + 3.97h),2024-08-25<br>22:50:45 UTC (T0 + 6.96h),Pointed,Manual,Mathieu de Bony
