@@ -10,7 +10,7 @@ GRB 250821A,SWIFT-BAT,2025-08-21<br>10:46:17 UTC,358.4121 deg<br> (23h53m38.904s
 GRB 250818B, SVOM-ECLAIR, 2025-08-18<br>04:24:58 UTC, 46.045 deg<br> (3h4m10.78s), -3.087  deg<br> (-3d5m13.56s), 2025-08-19<br>00:10:10 UTC (T0 + 19.67h), 2025-08-19<br>01:35:47 UTC (T0 + 21.18h), Pointed, Manual, Tobias Preis
 GRB 250818A,SWIFT-BAT,2025-08-18<br>01:31:22 UTC,213.8334 deg<br> (14h15m20.016s),-58.0074 deg<br> (-58d00'26.64''),2025-08-18<br>18:25:47 UTC (T0 + 16.91h),2025-08-18<br>20:11:08 UTC (T0 + 18.66h),Pointed,Manual,Tobias Preis
 GRB 250805A,SWIFT-BAT,2025-08-05<br>06:09:08 UTC,24.1534 deg<br> (01h36m36.816s),-81.4065 deg<br> (-81d24'23.4''),Cancelled (Poor visibilty + large delay),,Pointed,Manual, Dirk van der Geest
-776041355, Fermi-GBM, 2025-08-04<br>23:02:30 UTC, 1.370 deg<br> (0h5m28.8s), -68.700  deg<br> (-68d41m59.64s), Cancelled (possibly not a GRB + large uncertainty) , , Pointed, Manual, Dirk van der Geest
+GRB 250804C, Fermi-GBM, 2025-08-04<br>23:02:30 UTC, 1.370 deg<br> (0h5m28.8s), -68.700  deg<br> (-68d41m59.64s), Cancelled (possibly not a GRB + large uncertainty) , , Pointed, Manual, Dirk van der Geest
 GRB 250728A,SWIFT-BAT,2025-07-28<br>09:25:45 UTC,260.94 deg<br> (17h23m46.8s),16.20 deg<br> (16d12'17.64''),Cancelled (Bad weather),,Pointed,Manual, Dirk van der Geest
 GRB 250725A,SWIFT-BAT,2025-07-25<br>01:51:36 UTC,35.3851 deg<br> (02h21m32.424s),-82.7843 deg<br> (-82d47'03.48''),2025-07-25<br>03:30:46 UTC (T0 + 1.65h),2025-07-25<br>04:22:26 UTC (T0 + 2.51h),Pointed,Manual, Matteo Cerruti
 GRB 250718A,SWIFT-BAT,2025-07-18<br>00:14:02 UTC,241.9978 deg<br> (16h07m59.472s),-11.9933 deg<br> (-11d59'35.88''), Cancelled (possibly not a GRB<br> + no afterglow at any wavelength),,Pointed,Manual,Matteo Cerruti
@@ -33,10 +33,9 @@ GRB 250419A, SVOM, 2025-04-19<br>02:29:32 UTC, 202.387 deg<br> (13h29m32.98s), 7
 GRB 250403A, SVOM, 2025-04-03<br>15:15:20 UTC, 194.593 deg<br> (12h58m22.25s), -24.376  deg<br> (-24d22m34.32s), Cancelled (Bad weather),, Pointed, Manual, Ilja Jaroschewski
 GRB 250328A,SVOM-ECLAIR,2025-03-28<br>16:56:56 UTC, 215.9771 deg<br> (14h23m54.51s),25.8825 deg<br> (25d52'56.83''), Cancelled (Bad weather),,Pointed,Manual,Bernardo Cornejo
 GRB 250322A,SWIFT-BAT,2025-03-22<br>16:26:08 UTC, 106.76 deg<br> (7h7m2.46s),7.19 deg<br> (7d11'34.26''),Cancelled (Bad weather),,Pointed,Manual, Bernardo Cornejo
-764104718,Fermi-GBM,2025-03-19<br>19:18:33 UTC,168.49 deg<br> (11h13m57.6s),-47.68 deg<br> (-47d40'48''),Cancelled (Bad weather),,Pointed,Automatic, Bernardo Cornejo
+764104718 (retracted),Fermi-GBM,2025-03-19<br>19:18:33 UTC,168.49 deg<br> (11h13m57.6s),-47.68 deg<br> (-47d40'48''),Cancelled (Bad weather),,Pointed,Automatic, Bernardo Cornejo
 GRB 250307A,Fermi-GBM,2025-03-07<br>19:57:53 UTC,264.75 deg<br> (17h39m00s),1.57 deg<br> (+01d34'12''),Cancelled (Bad weather),,Tiled,Manual, Halim Ashkar
 GRB 250302A,Fermi-GBM,2025-03-02<br>13:46:32 UTC,229.77 deg<br> (15h19m04.8s),6.65 deg<br> (+06d39'00''),Cancelled,,Tiled,Manual, Halim Ashkar
-EP250223a,Einstein Probe, 2025-02-23<br>15:04:35 UTC, 98.272 deg<br> (6h33m5.328s), -22.444 deg<br> (-22d26m39.12s), Cancelled (Bad weather) , , Pointed,Manual, Ilja Jaroschewski
 GRB 250221A,SWIFT-BAT,2025-02-21<br>03:34:37 UTC,59.4766 deg<br> (03h57m54.384s),-15.1387 deg<br> (-15d08'19.32''),2025-02-21<br>18:39:55 UTC (T0 + 15.09h),2025-02-21<br>20:56:16 UTC (T0 + 17.36h),Pointed,Manual, Ilja Jaroschewski
 GRB 250206A,Fermi-GBM,2025-02-06<br>19:51:31 UTC,213.41 deg<br> (14h13m38.4s),-64.2 deg<br> (-64d12'00''),Cancelled (Bad weather),,Tiled,Manual, Santiago Pita
 GRB 250201A,Fermi-GBM,2025-02-01<br>09:59:46 UTC,115.07 deg<br> (07h40m16.8s),-52.51 deg<br> (-52d30'36''),2025-02-01<br>20:05:00 UTC (T0 + 10.09h),2025-02-01<br>23:23:00 UTC (T0 + 13.39h),Tiled,Manual, Santiago Pita
@@ -52,7 +51,7 @@ GRB 241217A,SVOM,2024-12-17<br>16:57:13 UTC,84.15 deg<br> (5h36m36.48s),-25.30 d
 GRB 241209D,SWIFT-BAT,2024-12-09<br>10:59:46 UTC,190.1108 deg<br> (12h40m26.592s),-2.8786 deg<br> (-02d52'42.96''),Cancelled (small visibility window),,Pointed,Manual, Pierre Pichard
 GRB 241209A,SWIFT-BAT,2024-12-09<br>05:35:44 UTC,155.3758 deg<br> (10h21m30.192s),6.316 deg<br> (+06d18'57.6''),Cancelled (high redshift),,Pointed,Manual, Pierre Pichard
 GRB 241130A,Fermi-GBM,2024-11-30<br>23:13:45 UTC,100.29 deg<br> (06h41m9.6s),-26.38 deg<br> (-26d22'48''),2024-12-01<br>00:24:58 UTC (T0 + 1.2h),2024-12-01<br>02:43:51 UTC (T0 + 3.5h),Pointed,Manual,Bernardo Cornejo
-1270788 (retracted),SWIFT-BAT,2024-11-27<br>21:43:16 UTC,327.9222 deg<br> (21h51m41.328s),-56.6853 deg<br> (-56d41'07.08''),Cancelled (Too long after event),,Pointed,Manual,Bernardo Cornejo
+GRB 241127A,SWIFT-BAT,2024-11-27<br>21:43:16 UTC,327.9222 deg<br> (21h51m41.328s),-56.6853 deg<br> (-56d41'07.08''),Cancelled (Too long after event),,Pointed,Manual,Bernardo Cornejo
 GRB 241105A,Fermi-GBM,2024-11-05<br>16:06:04 UTC,66.24 deg<br> (04h24m59.0s),-49.75 deg<br> (-49d45'09.3''),2024-11-05<br>22:00:00 UTC (T0 + 5.9h),2024-11-06<br>02:30:00 UTC (T0 + 10.4h),Pointed,Manual,Bernardo Cornejo
 GRB 241030B,SWIFT-BAT,2024-10-30<br>18:34:20 UTC,50.7882 deg<br> (03h23m09.168s),34.4325 deg<br> (+34d25'57''),2024-10-30<br>22:33:05 UTC (T0 + 3.98h),2024-10-31<br>00:46:55 UTC (T0 + 6.21h),Pointed,Manual,Mathieu de Bony
 GRB 241029A,SVOM-Eclair,2024-10-29<br>02:19:53 UTC,325.33 deg<br> (21h41m18.48s),5.090 deg<br> (5d5'9.6''),2024-10-29<br>19:16:27 UTC (T0 + 16.9h),2024-10-09<br>20:43:05 UTC (T0 + 18.4h),Tiled,Manual,Mathieu de Bony
@@ -71,7 +70,7 @@ GRB 240805B,SWIFT-BAT,2024-08-05<br>14:28:54 UTC,254.2391 deg<br> (16h56m57.384s
 GRB 240805A,SWIFT-BAT,2024-08-05<br>02:02:22 UTC,190.9108 deg<br> (12h43m38.592s),-53.6216 deg<br> (-53d37'17.76''),2024-08-05<br>17:42:50 UTC (T0 + 15.67h),2024-08-05<br>18:40:02 UTC (T0 + 16.6h),Pointed,Manual, Mathieu de Bony
 GRB 240731A,Fermi-GBM,2024-07-31<br>14:20:12 UTC,0.56 deg<br> (00h02m14.4s),-46.28 deg<br> (-46d16'48''),Cancelled,,Tiled,Manual, Mathieu de Bony
 GRB 240727A,SWIFT-XRT,2024-07-27<br>03:48:00 UTC,236.43742<br> (15h45m44.98s),8.62001 deg<br> (+08d37'12.0''),2024-07-27<br>17:40:00 UTC (T0 + 14h),2024-07-27<br>21:44:00 UTC (T0 + 17h),Pointed,Manual,Bernardo Cornejo
-1244778,SWIFT-BAT,2024-07-25<br>02:37:36 UTC,299.054 deg<br> (19h56m12.96s),-64.6667 deg<br> (-64d40'00.12''),Cancelled (Trigger not a GRB from SWIFT),,Pointed,Manual,Bernardo Cornejo
+1244778 (retracted),SWIFT-BAT,2024-07-25<br>02:37:36 UTC,299.054 deg<br> (19h56m12.96s),-64.6667 deg<br> (-64d40'00.12''),Cancelled (Statistical fluctuation),,Pointed,Manual,Bernardo Cornejo
 GRB 240713A,SVOM,2024-07-13<br>02:02:40 UTC,352.59 deg<br> (23h30m21.6s),1.88 deg<br> (-1d52m48s),2024-07-14<br>00:35:00 UTC (T0 + 22.5h),2024-07-14<br>04:30:00 UTC (T0 + 26h),Pointed,Manual,Fabian Schussler
 742317942,Fermi-GBM,2024-07-10<br>15:25:37 UTC,239.71 deg<br> (15h58m50.4s),-13.71 deg<br> (-13d42'36''),2024-07-10<br>17:33:52 UTC (T0 + 2.14h),2024-07-10<br>23:47:32 UTC (T0 + 8.37h),Tiled,Manual, Fabian Schussler
 GRB 240705A (retracted),Fermi-GBM,2024-07-05<br>22:24:12 UTC,347.1 deg<br> (23h08m24s),-75.71 deg<br> (-75d42'36''),2024-07-05<br>23:10:01 UTC (T0 + 0.76h),2024-07-06<br>04:25:13 UTC (T0 + 6.02h),Tiled,Manual,Dagmar Rozendal
@@ -117,7 +116,7 @@ GRB230712B,Fermi-GBM,2023-07-12<br>20:49:57 UTC,342.76 deg<br> (22h51m02.4s),-42
 GRB230625A,Fermi-GBM,2023-06-25<br>18:24:10 UTC,320.12 deg<br> (21h20m28.8s),-18.6 deg<br> (-18d36'00''),2023-06-25<br>22:42:07 UTC (T0 + 4.3h),2023-06-26<br>04:23:28 UTC (T0 + 9.99h),Tiled,Manual,Halim Ashkar
 GRB230623A,MAXI/GSC,2023-06-23<br>07:23:37 UTC,349.981 deg<br> (23h19m55.44s),-17.842 deg<br> (-17d50'31.2''),2023-06-23<br>23:51:37 UTC (T0 + 16.47h),2023-06-24<br>04:23:37 UTC (T0 + 21h),Pointed,Manual,Halim Ashkar
 GRB230622A,SWIFT-BAT,2023-06-22<br>10:04:21 UTC,292.5323 deg<br> (19h30m07.752s),-32.9215 deg<br> (-32d55'17.4''),2023-06-22<br>20:10:46 UTC (T0 + 10.11h),2023-06-23<br>04:23:09 UTC (T0 + 18.31h),Pointed,Manual,Halim Ashkar
-708430236,Fermi-GBM,2023-06-14<br>10:10:31 UTC,228.63 deg<br> (15h14m31.2s),10.35 deg<br> (+10d21'00''),Observation canceled,,Tiled,Manual, Mathieu de Bony
+GRB 230614C,Fermi-GBM,2023-06-14<br>10:10:31 UTC,228.63 deg<br> (15h14m31.2s),10.35 deg<br> (+10d21'00''),Cancelled,,Tiled,Manual, Mathieu de Bony
 GRB230520A,MAXI/GSC,2023-05-20<br>05:03:24 UTC,142.422 deg<br> (09h29m41s),1.524 deg<br> (01d31'26''),2023-05-20<br>17:28:00 UTC (T0 + 12.5h),2023-05-20<br>20:16:00 UTC (T0 + 15.2h),Pointed,Manual, Mathieu de Bony
 GRB230517A,Fermi-GBM,2023-05-17<br>11:05:46 UTC,120.44 deg<br> (08h01m45.6s),-49.7 deg<br> (-49d42'00''),2023-05-17<br>17:29:05 UTC (T0 + 6.39h),2023-05-17<br>19:56:15 UTC (T0 + 8.84h),Tiled,Manual, Mathieu de Bony
 GRB230511B,Fermi-GBM,2023-05-11<br>13:08:30 UTC,222.94 deg<br> (14h51m45.6s), -7.67 deg<br> (-07d40'12''),2023-05-11<br>18:30:54 UTC (T0 + 5.3h),2023-05-11<br>21:58:02 (T0 + 8.8h),Tiled,Manual,Mathieu de Bony
