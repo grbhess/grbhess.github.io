@@ -57,6 +57,7 @@ GRB 241030B,SWIFT-BAT,2024-10-30<br>18:34:20 UTC,50.7882 deg<br> (03h23m09.168s)
 GRB 241029A,SVOM-Eclair,2024-10-29<br>02:19:53 UTC,325.33 deg<br> (21h41m18.48s),5.090 deg<br> (5d5'9.6''),2024-10-29<br>19:16:27 UTC (T0 + 16.9h),2024-10-09<br>20:43:05 UTC (T0 + 18.4h),Tiled,Manual,Mathieu de Bony
 GRB 241008A,Fermi-GBM,2024-10-08<br>22:00:04 UTC,112.87 deg<br> (07h31m28.8s),-14.48 deg<br> (-14d28'48''),2024-10-09<br>00:58:22 UTC (T0 + 2.9h),2024-10-09<br>03:25:40 UTC (T0 + 5.4h),Tiled,Manual,Bernardo Cornejo
 GRB 241006A,SWIFT-BAT,2024-10-06<br>21:51:58 UTC,304.7942 deg<br> (20h19m10.608s),-40.7959 deg<br> (-40d47'45.24''),Cancelled (bad weather),,Pointed,Automatic,Bernardo Cornejo
+GRB 241002C,SVOM-Eclair,2024-10-02<br>09:20:48 UTC,62.45 deg<br> (4h9m48s),-7.91 deg<br> (-7d54'36''),2024-10-02<br>23:22:18 UTC (T0 + 14.03h),2024-10-03<br>03:25:18 UTC (T0 + 18.08h),Pointed,Manual,Halim Ashkar
 GRB 241001A,SVOM-Eclair,2024-10-01<br>17:08:45 UTC,20.42 deg<br> (1h21m40.8s),-43.53 deg<br> (-43d31'48''),2024-10-02<br>20:28:18 UTC (T0 + 27.32h),2024-10-02<br>21:06:18 UTC (T0 + 27.96h),Pointed,Manual,Halim Ashkar
 GRB 240905E,SWIFT-BAT,2024-09-05<br>18:26:03 UTC,345.7993 deg<br> (23h03m11.832s),35.4951 deg<br> (+35d29'42.36''),Cancelled (observation constraint),,Pointed,Manual,Mathieu de Bony
 746882332 (retracted),Fermi-GBM,2024-09-01<br>11:18:47 UTC,353.96 deg<br> (23h35m50.4s),-26.78 deg<br> (-26d46'48''),Cancelled (not a GRB),,Tiled,Manual,Mathieu de Bony
@@ -126,6 +127,8 @@ GRB 230328A,Fermi-GBM,2023-03-28<br>13:58:24 UTC,195.05 deg<br> (13h00m12s),-0.7
 GRB 230325A,SWIFT-BAT,2023-03-25<br>03:15:35 UTC,296.8202 deg<br>(19h47m16.848s),-46.0941 deg<br>(-46d05'38.76''),2023-03-25<br>03:16:11 UTC (T0 + 0.01h),2023-03-25<br>03:53:02 UTC (T0 + 0.62h),Pointed,Automatic, Jean Damascene Mbarubucyeye 
 GRB 230216A,SWIFT-BAT,2023-02-16<br>14:48:34 UTC,113.966 deg<br> (07h35m51.84s),-8.0151 deg<br> (-08d00'54.36''),2023-01-16<br>18:42:26 UTC (T0 + 3.9h),2023-01-18<br>00:44:31 UTC (T0 + 33.95h) (Multiple nights),Pointed,Manual,Stijn Groeneveld
 GRB 230124A,FERMI-GBM,2023-01-24<br>15:18:46 UTC,67.17 deg<br>(04h28m41s),-1.45 deg<br>(-01d27m00s),2023-01-24<br>21:29:46 UTC (T0 + 6.2h),2023-01-24<br>22:59:46 UTC (T0 + 7.7h),Tiled,Manual,Ruslan Konno
+GRB 221226A,Fermi, 2022-12-26<br>16:44:27 UTC, 68.220 deg<br> (4h32m52.8s), 34.850  deg<br> (34d51m0s), 2022-12-26<br>19h05 UTC (T0 + 3.31h), 2022-12-26<br>23h34 UTC (T0 + 7.3h), Tiled, Manual, Ruslan Konno
+GRB 221215B,Fermi,2022-12-15<br>16:09:34 UTC, 23.230 deg<br> (1h32m55.2s), 32.050  deg<br> (32d3m0s), 2022-12-15<br>18h53 UTC (T0 + 2.43h), 2022-12-15<br>21h26 UTC (T0 + 5.16h), Tiled, Manual, Jean Damascene Mbarubucyeye
 GRB 221202A,SWIFT-BAT,2022-12-02<br>20:06:10 UTC,77.095 deg<br>(05h08m23s),-59.806 deg<br>(-59d48m21.6s),2022-12-03<br>00:52:59 UTC (T0 + 4.8h),2022-12-03<br>02:46:59 UTC (T0 + 6.7h),Pointed,Manual,Jean Damascene Mbarubucyeye
 GRB 221126A,FERMI-GBM,2022-11-26<br>13:07:29 UTC,143.48 deg<br>(09h33m55s),13.08 deg<br>(+13d04m48s),2022-11-27<br>00:33:07 UTC (T0 + 11.45h),2022-11:27<br>02:44:11 UTC (T0 + 13.6h),Tiled,Manual,Jean Damascene Mbarubucyeye
 GRB 221025A,FERMI-LAT,2022-10-25<br>00:58:18 UTC,133.38 deg<br>(08h53m31s),10.99 deg<br>(+10d59'24''),2022-10-26<br>02:12:13 UTC (T0 + 25.2h),2022-10-26<br>03:00:13 UTC (T0 + 26.0h),Pointed,Manual,Halim Ashkar
