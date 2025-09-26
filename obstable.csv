@@ -1,5 +1,4 @@
-780538888,Fermi-GBM,2025-09-26<br>00:21:23 UTC,82.82 deg<br> (05h31m16.8s),-7.11 deg<br> (-07d06'36''),2025-09-26<br>00:36:04 UTC (T0 + 0.24h),2025-09-26<br>03:33:04 UTC (T0 + 3.19h),Tiled,Manual,
-780538888,Fermi-GBM,2025-09-26<br>00:21:23 UTC,83.1 deg<br> (05h32m24s),-8.03 deg<br> (-08d01'48''),2025-09-26<br>00:22:26 UTC (T0 + 0.02h),2025-09-26<br>03:32:27 UTC (T0 + 3.18h),Pointed,Automatic,
+GRB 250926A,Fermi-GBM,2025-09-26<br>00:21:23 UTC,83.1 deg<br> (05h32m24s),-8.03 deg<br> (-08d01'48''),Cancelled (Bad weather),,Pointed,Automatic, Anne Timmermans
 GRB 250920C, SWIFT, 2025-09-20<br>15:27:21 UTC, 51.464 deg<br> (3h25m51.46s), -29.657  deg<br> (-29d39m23.76s), Cancelled (Bad weather),,Pointed, Manual, Dirk van der Geest
 GRB 250919A,Fermi-LAT,2025-09-19<br>00:28:52 UTC,298.5199 deg<br> (19h54m04.776s),-48.8299 deg<br> (-48d49'47.64''),Cancelled (Bad weather),,Pointed,Manual, Dirk van der Geest
 GRB 250917B,SWIFT-BAT,2025-09-17<br>06:27:44 UTC,291.3777 deg<br> (19h25m30.648s),11.1132 deg<br> (+11d06'47.52''),2025-09-17<br>17:55:37 UTC (T0 + 11.46h),2025-09-17<br>21:52:58 UTC (T0 + 15.42h),Pointed,Manual, Dirk van der Geest
