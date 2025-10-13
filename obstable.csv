@@ -1,6 +1,7 @@
-782069986,Fermi-GBM,2025-10-13<br>17:39:41 UTC,348.16 deg<br> (23h12m38.4s),-5.68 deg<br> (-05d40'48''),2025-10-13<br>18:09:27 UTC (T0 + 0.5h),2025-10-13<br>23:52:47 UTC (T0 + 6.22h),Tiled,Manual,
-782036672,Fermi-GBM,2025-10-13<br>08:24:27 UTC,356.16 deg<br> (23h44m38.4s),7.86 deg<br> (+07d51'36''),2025-10-13<br>18:06:17 UTC (T0 + 9.7h),2025-10-13<br>23:51:44 UTC (T0 + 15.45h),Tiled,Manual,
-782035450,Fermi-GBM,2025-10-13<br>08:04:05 UTC,15.85 deg<br> (01h03m24s),-3.66 deg<br> (-03d39'36''),2025-10-13<br>18:34:16 UTC (T0 + 10.5h),2025-10-13<br>23:53:09 UTC (T0 + 15.82h),Tiled,Manual,
+sb25101311, SVOM-MXT, 2025-10-13<br>17:43:05 UTC, 345.830 deg<br> (23h3m19.224s), -0.221  deg<br> (-0d13m14.52s), 2025-10-13<br>18:06:15 UTC (T0 + 0.23h), 2025-10-13<br>23:56:29 UTC (T0 + 6.13h), Pointed, Manual, Ilja Jaroschewski
+GRB 251013C,Fermi-GBM,2025-10-13<br>17:39:41 UTC,348.16 deg<br> (23h12m38.4s),-5.68 deg<br> (-05d40'48''), Cancelled , ,Tiled,Manual, Ilja Jaroschewski
+GRB 251013B,Fermi-GBM,2025-10-13<br>08:24:27 UTC,356.16 deg<br> (23h44m38.4s),7.86 deg<br> (+07d51'36''), Cancelled , ,Tiled,Manual, Ilja Jaroschewski
+GRB 251013A,Fermi-GBM,2025-10-13<br>08:04:05 UTC,15.85 deg<br> (01h03m24s),-3.66 deg<br> (-03d39'36''), Cancelled , ,Tiled,Manual, Ilja Jaroschewski
 GRB 251011B, Swift-XRT, 2025-10-11<br>07:09:58 UTC, 13.236 deg<br> (0h52m56.592s), -62.033  deg<br> (-62d1m57.36s), 2025-10-11<br>18:05:15 UTC (T0 + 10.55h), 2025-10-11<br>22:02:25 UTC (T0 + 14.52h), Pointed, Manual, Ilja Jaroschewski
 GRB 251002A, SVOM-MXT, 2025-10-02<br>20:17:42 UTC, 13.918 deg<br> (0h55m40.296s), -5.568  deg<br> (-5d34m4.44s), 2025-10-03<br>01:57:34 UTC (T0 + 5.39h), 2025-10-03<br>03:00:37 UTC (T0 + 6.42h), Pointed, Manual, Ilja Jaroschewski
 GRB 251001B,SWIFT-BAT,2025-10-01<br>14:17:20 UTC,42.6648 deg<br> (02h50m39.552s),-23.0195 deg<br> (-23d01'10.2''),2025-10-02<br>01:21:07 UTC (T0 + 11.06h),2025-10-02<br>03:24:51 UTC (T0 + 13.13h),Pointed,Manual,Anne Timmermans
