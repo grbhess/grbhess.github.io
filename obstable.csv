@@ -1,14 +1,8 @@
-1418333,SWIFT-BAT,2025-11-29<br>11:05:08 UTC,174.5202 deg<br> (11h38m04.848s),-20.9275 deg<br> (-20d55'39''),2025-11-30<br>01:37:00 UTC (T0 + 14.53h),2025-11-30<br>02:42:39 UTC (T0 + 15.63h),Pointed,Manual,
-<<<<<<< HEAD
-785190695,Fermi-GBM,2025-11-18<br>20:31:30 UTC,154.89 deg<br> (10h19m33.6s),-36.89 deg<br> (-36d53'24''),2025-11-19<br>00:46:06 UTC (T0 + 4.24h),2025-11-19<br>02:46:42 UTC (T0 + 6.25h),Tiled,Manual,
-784748255,Fermi-GBM,2025-11-13<br>17:37:30 UTC,53.55 deg<br> (03h34m12s),7.03 deg<br> (+07d01'48''),2025-11-13<br>19:25:13 UTC (T0 + 1.8h),2025-11-14<br>00:25:58 UTC (T0 + 6.81h),Tiled,Manual,
-=======
 GRB 251122A, SVOM-MXT, 2025-11-22<br>14:00:05 UTC, 30.030 deg<br> (2h32m7.15s), 14.129  deg<br> (14d7m42.6s),2025-11-22<br>19:32:00 UTC (T0 + 5.65h),2025-11-23<br>00:29:00 UTC (T0 + 10.48h),Pointed, Manual, Wassim Si Said
 GRB 251116B, SVOM-ECLAIRs, 2025-11-16<br>15:32:26 UTC, 18.832 deg<br> (1h15m19.68s), -41.085  deg<br> (-41d5m7.44s), Cancelled (Bad weather),,Pointed, Manual, Bernardo Cornejo
 GRB 251116C, SVOM-ECLAIRs, 2025-11-16<br>15:57:15 UTC, 335.265 deg<br> (22h21m3.65s), -10.411  deg<br> (-10d24m37.8s), Cancelled (Bad weather),,Pointed, Manual, Bernardo Cornejo
 GRB 251115A, Fermi-LAT, 2025-11-15<br>03:20:02 UTC, 330.180 deg<br> (22h0m43.2s), -9.180  deg<br> (-9d10m48s), Cancelled (Bad weather),, Pointed, Manual, Bernardo Cornejo
 GRB 251113A,Fermi-GBM,2025-11-13<br>17:37:30 UTC,53.55 deg<br> (03h34m12s),7.03 deg<br> (+07d01'48''),Cancelled (Bad weather),,Tiled,Manual, Bernardo Cornejo
->>>>>>> 190c371d672e7d8136fbb6249d1cb3f03849884b
 GRB 251111A, SVOM-ECLAIRs, 2025-11-11<br>05:10:15 UTC, 32.378 deg<br> (2h9m30.79s), 5.257  deg<br> (5d15m24.12s), 2025-11-11<br>18:26:16 UTC (T0 + 13.16h), 2025-11-11<br>23:21:28 UTC (T0 + 18.11h), Pointed, Manual, Bernardo Cornejo
 GRB 251024A,SWIFT-BAT,2025-10-24<br>17:47:02 UTC,306.6219 deg<br> (20h26m29.256s),-68.574 deg<br> (-68d34'26.4''),2025-10-24<br>18:12:06 UTC (T0 + 0.42h),2025-10-24<br>21:34:14 UTC (T0 + 3.79h),Pointed,Automatic,Anne Timmermans
 GRB 251022A,Fermi-GBM,2025-10-22<br>22:34:15 UTC,73.86 deg<br> (04h55m26.4s),-23.4 deg<br> (-23d24'00''),2025-10-22<br>23:04:16 UTC (T0 + 0.5h),2025-10-23<br>03:05:24 UTC (T0 + 4.52h),Tiled,Manual, Anne Timmermans
