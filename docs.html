@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>GRB Dashboard Documentation</title>
+
+  <style>
+  /* =========================================================
+     FONT SIZE TWEAKS  ✅ Edit these to scale the page
+     ========================================================= */
+
+  /* Base text size (fallback for everything) */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;          /* <-- global fallback */
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* MAIN DOCUMENT TEXT (this controls the real text + labels + back link) */
+  details p,
+  details li,
+  details ul,
+  main p,
+  main li,
+  main ul,
+  main span,
+  main a {
+    font-size: 16px;          /* <-- MAIN TEXT SIZE */
+  }
+
+  /* Left navigation sizing */
+  nav,
+  nav a {
+    font-size: 16px;          /* <-- nav font size */
+  }
+
+  /* Titles and headers */
+  h1 { font-size: 32px; }   /* <-- main page title */
+  h2 { font-size: 26px; }   /* <-- section titles */
+  h3 { font-size: 20px; }   /* <-- subsection titles */
+
+  /* Collapsible headers */
+  summary {
+    font-size: 20px;          /* <-- <details> header size */
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* =========================================================
+     Layout and minor styling (keep simple)
+     ========================================================= */
+
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  nav {
+    width: 300px;
+    padding: 22px 18px;
+    border-right: 1px solid #ccc;
+    background: #f9f9f9;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+
+  nav .title {
+    font-weight: bold;
+    margin-bottom: 14px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  nav li {
+    margin: 8px 0;
+  }
+
+  nav .sub {
+    padding-left: 16px;
+    font-size: 0.95em;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #0047ab;
+    cursor: pointer;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    flex: 1;
+    padding: 28px 36px;
+    box-sizing: border-box;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-top: 34px;
+    margin-bottom: 12px;
+  }
+
+  h3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
+
+  details {
+    margin: 12px 0 18px 0;
+  }
+
+  .swatches {
+    margin: 8px 0 12px 0;
+  }
+
+  code {
+    background: #f1f1f1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.95em;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 12px 0;
+  }
+
+  /* Anchor targets: scroll nicely */
+  .anchor {
+    position: relative;
+    top: -16px;
+  }
+  </style>
+
+  <script>
+  // Robust behavior:
+  // - Click left nav -> open target section (<details>) and scroll to anchor
+  // - Hash in URL on load -> open and scroll
+  // - Works even if anchor is before/inside <details>
+
+  function openAndScroll(id) {
+    const anchor = document.getElementById(id);
+    if (!anchor) return;
+
+    // If anchor is inside a <details>, open it
+    const details = anchor.closest("details");
+    if (details) details.open = true;
+
+    // Also: if anchor is a section header that is *followed by* a details,
+    // we still want to open the next details sometimes. (Optional)
+    // (Not required with your current anchor placement.)
+
+    anchor.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  }
+
+  function wireNav() {
+    document.querySelectorAll("nav a[data-target]").forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const id = link.dataset.target;
+        openAndScroll(id);
+        history.pushState(null, "", "#" + id);
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    wireNav();
+
+    if (window.location.hash) {
+      const id = window.location.hash.substring(1);
+      // Slight delay helps ensure layout is ready
+      setTimeout(() => openAndScroll(id), 50);
+    }
+  });
+  </script>
+</head>
+
+<body>
+<div class="container">
+
+<nav>
+  <div class="title">Documentation</div>
+
+  <ul>
+    <li><a data-target="overview">Overview</a></li>
+    <li class="sub"><a data-target="overview_tool">Summary</a></li>
+    <li class="sub"><a data-target="overview_policy">Observation policy</a></li>
+
+    <li><a data-target="search_filters">Search &amp; Filters</a></li>
+    <li class="sub"><a data-target="search_part">Search</a></li>
+    <li class="sub"><a data-target="filters_part">Filters</a></li>
+
+    <li><a data-target="modes">Map &amp; Plot Modes</a></li>
+    <li class="sub"><a data-target="plot_modes">Plot modes</a></li>
+    <li class="sub"><a data-target="click_modes">Click modes</a></li>
+    <li class="sub"><a data-target="sizes_shapes_colors">Shapes, sizes, colours</a></li>
+
+    <li><a data-target="legends">Colour &amp; Shape Legends</a></li>
+    <li class="sub"><a data-target="legend_color">Colour meaning</a></li>
+    <li class="sub"><a data-target="legend_shape">Shape meaning</a></li>
+    <li class="sub"><a data-target="legend_pie">Pie chart colours</a></li>
+
+    <li><a data-target="columns">Column explanation</a></li>
+    <li class="sub"><a data-target="columns_table">Table columns</a></li>
+  </ul>
+
+  <hr>
+  <a href="index.html">← Back to dashboard</a>
+</nav>
+
+<main>
+<div class="content">
+
+<h1>H.E.S.S. GRB Follow-Up Dashboard — Documentation</h1>
+
+<!-- ====================================================== -->
+<div class="anchor" id="overview"></div>
+<h2>Overview</h2>
+
+<div class="anchor" id="overview_tool"></div>
+<details open>
+  <summary>Summary</summary>
+
+  <p>
+    This table summarizes H.E.S.S. GRB observations since the most recent camera upgrade in late 2019.
+    It includes completed observations as well as planned ones. <strong>Please note that planned observations are
+    subject to external effects such as weather conditions and technical difficulties, as well as burst
+    advocate decisions, and are not guaranteed.</strong> In general, the H.E.S.S. burst advocate who is on call for a particular GRB will modify the table the
+    morning after observations have been taken; after this point, the table elements will reflect the actual
+    observations and not the planned ones.
+  </p>
+
+  <p>
+    This table is updated automatically whenever a new GRB is scheduled by our automatic response system <a href="https://www.aanda.org/articles/aa/full_html/2022/10/aa43092-22/aa43092-22.html">
+    (C. Hoischen et al. 2022)</a>. If the follow-up scheduling is done manually, the BA will update the table as soon as possible. Information on the table is updated once a week with the H.E.S.S. database
+    to reflect the actual observation times and correct for any last-minute changes or cancellations. Redshifts are updated weekly as well, based on the information available in GCN circulars and other sources.
+  </p>
+
+  <p>
+    For questions or comments, including requests for more information on a particular GRB, please email
+    <strong>contact.hess@hess-experiment.eu</strong>.
+  </p>
+
+  <p>
+    For general information about H.E.S.S. see
+    <a href="https://hess-experiment.eu/" target="_blank">
+      https://hess-experiment.eu/
+    </a>.
+  </p>
+</details>
+
+<div class="anchor" id="overview_policy"></div>
+<details>
+  <summary>Observation policy</summary>
+
+  <p>
+    The current H.E.S.S. GRB observation policy is to observe all well-localized GRBs that can be observed
+    within 24 hours of the GRB trigger time, for the entirety of the observable window on the first night.
+    H.E.S.S. also observes a subset of GRBs with larger localization uncertainties using a tiled observing
+    pattern.
+  </p>
+
+  <p>
+    We observe around 25 GRBs per year, of which roughly three quarters are observed with pointed
+    observations and a quarter with tiled observations. In general, a small fraction of GRBs that pass our
+    observing criteria are never observed due to burst advocate decision.
+  </p>
+
+  <p>Possible reasons include:</p>
+  <ul>
+    <li>Weather conditions are bad on-site</li>
+    <li>The delay time is long and the observable window is short</li>
+    <li>The GRB notice was later retracted</li>
+    <li>The GRB was determined to be at a large redshift</li>
+  </ul>
+</details>
+
+<!-- ====================================================== -->
+<div class="anchor" id="search_filters"></div>
+<h2>Search possibilities and filters</h2>
+
+<div class="anchor" id="search_part"></div>
+<details>
+  <summary>Search</summary>
+  <p>
+    The search bar matches (case-insensitive) against:
+  </p>
+  <ul>
+    <li><strong>Name</strong></li>
+    <li><strong>Instrument</strong></li>
+    <li><strong>BA</strong></li>
+  </ul>
+  <p>
+    Multiple words are supported.
+  </p>
+</details>
+
+<div class="anchor" id="filters_part"></div>
+<details>
+  <summary>Filters</summary>
+  <p>You can filter GRBs using dropdowns and sliders:</p>
+  <ul>
+    <li><strong>Date range</strong>: filters using the Alert time (T0).</li>
+    <li><strong>Follow-up filter</strong>: All / Followed / Not Followed.</li>
+    <li><strong>Redshift filter</strong>: All / With redshift / No redshift.</li>
+    <li><strong>Observation type</strong>: All / Pointed / Tiled.</li>
+    <li><strong>Trigger instrument</strong>: All or Choose (Fermi, Swift, SVOM, Other).</li>
+  </ul>
+  <p>
+    Additional sliders appear automatically when relevant (e.g. delay and exposure when “Followed” is selected;
+    redshift slider when “With redshift” is selected). Followed/Not Followed refers to wether a planned observation was finally performed.
+  </p>
+  <p>
+    The "Reset Filters" button clears all filters and search terms. Similarly, the "Download CSV" button exports the currently filtered table as a CSV file.
+  </p>
+</details>
+
+<!-- ====================================================== -->
+<div class="anchor" id="modes"></div>
+<h2>Different Map &amp; Plot Modes</h2>
+
+<p>
+This map is generated using Bokeh, an interactive visualization library for Python. 
+All interactive features of the dashboard are preserved, including zooming, selection, box selection, 
+lasso selection, reset button, and <strong>notably downloading the current view using the download button</strong>. 
+For further technical details, please refer to the <a href="https://docs.bokeh.org/en/latest/">Bokeh documentation</a>.
+</p>
+
+<div class="anchor" id="plot_modes"></div>
+<details>
+  <summary>Plot modes</summary>
+  <ul>
+    <li><strong>RA/Dec</strong>: sky map in equatorial coordinates.</li>
+    <li><strong>Galactic (l/b)</strong>: sky map in galactic coordinates.</li>
+    <li><strong>Parameter plot</strong>: correlation plots between selected parameters.</li>
+    <li><strong>Pie chart</strong>: summary of followed &amp; not followed GRBs split by instrument group.</li>
+  </ul>
+
+  <p>
+    In Parameter plot mode, you can choose X and Y from:
+    <code>Delay (h)</code>, <code>Exposure (h)</code>, <code>Redshift (z)</code>,
+    <code>log(Delay (s))</code>, <code>log(Exposure (s))</code>.
+  </p>
+</details>
+
+<div class="anchor" id="sizes_shapes_colors"></div>
+<details>
+  <summary>Different shapes, sizes, and colors</summary>
+  <ul>
+    <li><strong>Shapes</strong> can encode instrument group, pointed/tiled, redshift presence, followed/not followed.</li>
+    <li><strong>Sizes</strong> can scale with delay, exposure time, or redshift (computed from filtered min/max).</li>
+    <li><strong>Colours</strong> can be categorical (instrument, type, followed, redshift) or continuous gradients.</li>
+  </ul>
+</details>
+
+<div class="anchor" id="click_modes"></div>
+<details>
+  <summary>Click modes</summary>
+  <ul>
+    <li><strong>Select row</strong>: only selects/highlights the row.</li>
+    <li><strong>Open GCN</strong>: opens the GCN link for the selected event.</li>
+    <li><strong>Aladin</strong>: opens an Aladin Lite view for the selected event.</li>
+    <li><strong>Astro-COLIBRI</strong>: opens the Astro-COLIBRI page for the event.</li>
+  </ul>
+  <p>
+    Actions are performed whether you click on a point in the plot or on selection box on a row in the table.
+  </p>
+</details>
+
+<!-- ====================================================== -->
+<div class="anchor" id="legends"></div>
+<h2>Colour and shape legends</h2>
+
+<div class="anchor" id="legend_color"></div>
+<details>
+  <summary>Colour legend (per “Color by” mode)</summary>
+
+  <h3>Instrument</h3>
+  <div class="swatches">
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#1f77b4; border:1px solid #666;"></span><span>Fermi</span></span>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#ff7f0e; border:1px solid #666;"></span><span>Swift</span></span>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#d62728; border:1px solid #666;"></span><span>SVOM</span></span>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#2ca02c; border:1px solid #666;"></span><span>Other</span></span>
+  </div>
+
+  <h3>Followed / Not followed</h3>
+  <div class="swatches">
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#e07b7b; border:1px solid #666;"></span><span>Followed</span></span>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#7b7b7b; border:1px solid #666;"></span><span>Not followed</span></span>
+  </div>
+
+  <h3>Pointed / Tiled</h3>
+  <div class="swatches">
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#e07b7b; border:1px solid #666;"></span><span>Pointed</span></span>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#7b7b7b; border:1px solid #666;"></span><span>Tiled</span></span>
+  </div>
+
+  <h3>With / without redshift</h3>
+  <div class="swatches">
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#e07b7b; border:1px solid #666;"></span><span>With redshift</span></span>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#7b7b7b; border:1px solid #666;"></span><span>No redshift</span></span>
+  </div>
+
+  <h3>Delay / Exposure / Redshift gradients</h3>
+  <p>
+    When you choose <strong>Delay (h)</strong>, <strong>Exposure (h)</strong>, or <strong>Redshift (z)</strong> as “Color by”,
+    the plot uses a continuous colour scale and shows a colour bar on the right.
+  </p>
+</details>
+
+<div class="anchor" id="legend_shape"></div>
+<details>
+  <summary>Shape legend (per “Shape by” mode)</summary>
+
+  <h3>Followed / Not followed</h3>
+  <ul>
+    <li><strong>circle</strong> = followed</li>
+    <li><strong>triangle</strong> = not followed</li>
+  </ul>
+
+  <h3>Instrument</h3>
+  <ul>
+    <li><strong>triangle</strong> = Fermi</li>
+    <li><strong>square</strong> = Swift</li>
+    <li><strong>circle</strong> = SVOM</li>
+    <li><strong>plus</strong> = Other</li>
+  </ul>
+
+  <h3>Pointed / Tiled</h3>
+  <ul>
+    <li><strong>circle</strong> = pointed</li>
+    <li><strong>triangle</strong> = tiled</li>
+  </ul>
+
+  <h3>With / without redshift</h3>
+  <ul>
+    <li><strong>triangle</strong> = with redshift</li>
+    <li><strong>circle</strong> = no redshift</li>
+  </ul>
+</details>
+
+<div class="anchor" id="legend_pie"></div>
+<details>
+  <summary>Pie chart colours</summary>
+  <p>
+    In the <strong>Pie chart</strong> mode, each instrument group uses two tones:
+    a strong colour for <strong>followed</strong> and a lighter colour for <strong>not followed</strong>.
+  </p>
+
+  <div class="swatches">
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#1f77b4; border:1px solid #666;"></span><span>Fermi followed</span></span> <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#aec7e8; border:1px solid #666;"></span><span>Fermi not followed</span></span><br>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#ff7f0e; border:1px solid #666;"></span><span>Swift followed</span></span> <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#ffbb78; border:1px solid #666;"></span><span>Swift not followed</span></span><br>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#d62728; border:1px solid #666;"></span><span>SVOM followed</span></span>  <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#ff9896; border:1px solid #666;"></span><span>SVOM not followed</span></span><br>
+    <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#2ca02c; border:1px solid #666;"></span><span>Other followed</span></span> <span style="display:inline-flex; align-items:center; gap:8px; margin:3px 14px 3px 0;"><span style="display:inline-block; width:16px; height:16px; background:#98df8a; border:1px solid #666;"></span><span>Other not followed</span></span><br>
+  </div>
+</details>
+
+<!-- ====================================================== -->
+<div class="anchor" id="columns"></div>
+<h2>Column explanation</h2>
+
+<div class="anchor" id="columns_table"></div>
+<details open>
+  <summary>Table columns</summary>
+
+  <ul>
+    <li><strong>Name</strong>:
+      GRB identifier from the triggering instrument (derived from automated notices) and/or the full alphanumeric
+      name where applicable (manually entered).
+    </li>
+
+    <li><strong>Instrument</strong>:
+      The GRB detector whose notification triggered H.E.S.S.; this is usually the detector with the best available
+      localization at the time of the H.E.S.S. observations.
+    </li>
+    
+    <li><strong>Type</strong>:
+      H.E.S.S. observation mode, either Pointed (for well-localized GRBs) or Tiled (for larger localization regions).
+    </li>
+
+    <li><strong>Alert time (UTC)</strong>:
+      Trigger time of the GRB, for the triggering instrument, in UTC.
+    </li>
+    
+    <li><strong>Start Time (UTC), End Time (UTC)</strong>:
+      Either the start and end of the time period when the GRB is visible to H.E.S.S. or the time period during
+      which H.E.S.S. observed the GRB (as stored in the dataset).
+    </li>
+
+    <li><strong>RA (deg), Dec (deg)</strong>:
+      Localization of the GRB by the triggering instrument, right ascension and declination (in degrees J2000).
+      For tiled observations, this is the position of the first tile that H.E.S.S. observed or plans on observing.
+    </li>
+
+    <li><strong>Delay (h)</strong>:
+      Delay in hours between the trigger time and the start of the observationsd with H.E.S.S.
+    </li>
+    
+    <li><strong>Exposure (h)</strong>:
+      Exposure in hours of H.E.S.S. for the source (total observation time).
+    </li>
+
+    <li><strong>BA</strong>:
+      The name or identifier for the H.E.S.S. burst advocate / contact field.
+    </li>
+  </ul>
+</details>
+
+<p style="margin-top: 36px;">
+  <a href="index.html">← Back to dashboard</a>
+</p>
+
+</div>
+</main>
+</div>
+</body>
+</html>
