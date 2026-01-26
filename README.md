@@ -31,7 +31,7 @@ The actual build and publication are performed by a **GitLab CI pipeline** that 
    - rebuilds the merged database and dashboards,
    - publishes:
      - a **public** dashboard to this repo’s `gh-pages` branch as `index.html`,
-     - a **private** dashboard to GitLab Pages (not hosted here).
+     - a **private** dashboard to GitLab Pages
 
 ---
 
