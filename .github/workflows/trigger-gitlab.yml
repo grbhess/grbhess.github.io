@@ -1,0 +1,21 @@
+name: Trigger GitLab build (public+private)
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "obstable.csv"
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger GitLab pipeline
+        run: |
+          curl --fail -X POST \
+            -F token="${{ secrets.GITLAB_TRIGGER_TOKEN }}" \
+            -F ref="main" \
+            -F "variables[GITHUB_REPO]=${{ github.repository }}" \
+            -F "variables[GITHUB_SHA]=${{ github.sha }}" \
+            -F "variables[GITHUB_REF]=${{ github.ref_name }}" \
+            "${{ secrets.GITLAB_BASE_URL }}/api/v4/projects/${{ secrets.GITLAB_PROJECT_ID }}/trigger/pipeline"
