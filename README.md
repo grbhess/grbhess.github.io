@@ -3,8 +3,6 @@
 This repository hosts the **public, static** GRB dashboard for H.E.S.S., published via **GitHub Pages** (branch `gh-pages`).  
 The actual build and publication are performed by a **GitLab CI pipeline** that is triggered automatically when the GRB observation table (`obstable.csv`) is updated.
 
-GitLab page: https://gitlab.in2p3.fr/hess/softwaremodules/highleveltools/hess-grb-dashboard/
-
 ---
 
 ## What’s in this repo
