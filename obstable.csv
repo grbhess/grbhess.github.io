@@ -1,7 +1,7 @@
 GRB 260307B,SVOM-ECLAIRs,2026-03-07<br>13:45:06 UTC,155.576 deg<br> (10h22m18.24s),-21.062 deg<br> (-21d03'43.2''),2026-03-07<br>18:25:15 UTC (T0 + 4.67h),2026-03-07<br>19:30:54 UTC (T0 + 5.76h),Pointed,Manual,Bernardo Cornejo
 GRB 260228A,SVOM-ECLAIRs,2026-02-28<br>20:55:34 UTC,237.8312 deg<br> (15h51m19.488s),26.306 deg<br> (+26d18'21.6''),2026-03-01<br>02:40:51 UTC (T0 + 5.75h),2026-03-01<br>03:41:27 UTC (T0 + 6.76h),Pointed,Manual, Wassim Si Said
 GRB 260219A,Fermi-GBM,2026-02-19<br>14:04:53 UTC,161.66 deg<br> (10h46m38.4s),5.83 deg<br> (+05d49'48''),Cancelled (large uncertainty),,Tiled,Manual, Wassim Si Said
-sb26021801,SVOM-ECLAIRs, 2026-02-18<br>04:53:28 UTC, 194.841 deg<br> (12h59m21.792s), 27.943  deg<br> (27d56m36.24s),Cancelled , ,  Pointed, Manual, Ilja Jaroschewski
+sb26021801,SVOM-ECLAIRs, 2026-02-18<br>04:53:28 UTC, 194.841 deg<br> (12h59m21.792s), 27.943  deg<br> (27d56m36.24s),Cancelled (Not a GRB), ,  Pointed, Manual, Ilja Jaroschewski
 GRB 260213B, Fermi-GBM,2026-02-13<br>17:40:09 UTC,145.05 deg<br> (09h40m12s),-40.72 deg<br> (-40d43'12''),Cancelled (Bad weather), , Tiled,Manual,Ilja Jaroschewski
 GRB 260211A, SVOM-ECLAIRs, 2026-02-11<br>19:24:23 UTC, 86.975 deg<br> (5h47m54.12s), -0.438  deg<br> (-0d26m16.44s), Cancelled (Bad weather),,  Pointed, Manual, Ilja Jaroschewski
 GRB 260208B,Fermi-LAT,2026-02-08<br>09:52:44 UTC,99.638 deg<br> (06h38m33.12s),-13.8379 deg<br> (-13d50'16.44''),2026-02-08<br>18:50:01 UTC (T0 + 8.95h),2026-02-08<br>21:34:08 UTC (T0 + 11.69h),Pointed,Manual, Ilja Jaroschewski
