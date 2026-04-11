@@ -1,5 +1,5 @@
-797587480,Fermi-GBM,2026-04-11<br>08:04:35 UTC,82.47 deg<br> (05h29m52.8s),2.61 deg<br> (+02d36'36''),2026-04-11<br>17:51:35 UTC (T0 + 9.78h),2026-04-11<br>18:46:46 UTC (T0 + 10.7h),Tiled,Manual,
-797582193,Fermi-GBM,2026-04-11<br>06:36:28 UTC,153.13 deg<br> (10h12m31.2s),11.64 deg<br> (+11d38'24''),2026-04-11<br>17:51:02 UTC (T0 + 11.24h),2026-04-11<br>23:05:49 UTC (T0 + 16.49h),Tiled,Manual,
+GRB 260411B,Fermi-GBM,2026-04-11<br>08:04:35 UTC,82.47 deg<br> (05h29m52.8s),2.61 deg<br> (+02d36'36''),Cancelled (large uncertainty), ,Tiled,Manual, Ilja Jaroschewski
+GRB 260411A,Fermi-GBM,2026-04-11<br>06:36:28 UTC,153.13 deg<br> (10h12m31.2s),11.64 deg<br> (+11d38'24''),Cancelled (large uncertainty), ,Tiled,Manual, Ilja Jaroschewski
 GRB 260410A,Fermi-LAT, 2026-04-10<br>07:03:57 UTC,110.67 deg<br> (07h22m40.8s), -20.94 deg<br> (-20d56'24''), Cancelled (bad weather), ,  Pointed, Manual,Ilja Jaroschewski
 GRB 260321A, SVOM-ECLAIRS, 2026-03-21<br>18:11:48 UTC,219.5736 deg<br> (14h38m17.664s),31.6745 deg<br> (+31d40'28.2''),2026-03-21<br>23:56:00 UTC (T0 + 5.74h),2026-03-22<br>03:15:28 UTC (T0 + 9.06h),Pointed,Manual,Ilja Jaroschewski
 GRB 260307B,SVOM-ECLAIRs,2026-03-07<br>13:45:06 UTC,155.576 deg<br> (10h22m18.24s),-21.062 deg<br> (-21d03'43.2''),2026-03-07<br>18:25:15 UTC (T0 + 4.67h),2026-03-07<br>19:30:54 UTC (T0 + 5.76h),Pointed,Manual,Bernardo Cornejo
