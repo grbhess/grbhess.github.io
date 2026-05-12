@@ -1,4 +1,4 @@
-800297808,Fermi-GBM,2026-05-12<br>16:56:43 UTC,152.86 deg<br> (10h11m26.4s),-83.05 deg<br> (-83d03'00''),2026-05-12<br>17:30:42 UTC (T0 + 0.57h),2026-05-12<br>18:17:09 UTC (T0 + 1.34h),Tiled,Manual,
+GRB 260512A,Fermi-GBM,2026-05-12<br>16:56:43 UTC,152.86 deg<br> (10h11m26.4s),-83.05 deg<br> (-83d03'00''),Cancelled (marginal observation conditions),,Tiled,Manual, Michelle Tsirou
 GRB 260511B,SVOM-Eclair and GBM,2026-05-11<br>11:01:00 UTC,192.57 deg<br> (12h50m17.64s),4.04 deg<br> (4d2'25.8''),,,Pointed,Manual, Michelle Tsirou
 GRB 260511A,SVOM-Eclair and GBM,2026-05-11<br>06:13:32 UTC,197.91 deg<br> (13h11m39.48s),-33.81 deg<br> (-33d48'43.2''),,,Pointed,Manual, Michelle Tsirou
 GRB 260510C,SVOM-Eclair and GBM,2026-05-10<br>17:13:42 UTC,157.9934 deg<br> (10h31m58.416s),2.915 deg<br> (+02d54'54''),2026-05-10<br>17:31:33 UTC (T0 + 0.3h),2026-05-10<br>21:52:39 UTC (T0 + 4.65h),Pointed,Automatic/Manual?, Michelle Tsirou
