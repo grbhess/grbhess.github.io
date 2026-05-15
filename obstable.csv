@@ -1,8 +1,8 @@
 GRB 260513A,Fermi-GBM,2026-05-13<br>21:24:18 UTC,318.46 deg<br> (21h13m50.4s),-37.54 deg<br> (-37d32'24''),2026-05-14<br>00:06:14 UTC (T0 + 2.7h),2026-05-14<br>02:31:27 UTC (T0 + 5.12h),Tiled,Manual, Michelle Tsirou
 GRB 260512A,Fermi-GBM,2026-05-12<br>16:56:43 UTC,152.86 deg<br> (10h11m26.4s),-83.05 deg<br> (-83d03'00''),Cancelled (marginal observation conditions),,Tiled,Manual, Michelle Tsirou
-GRB 260511B,SVOM-Eclair and GBM,2026-05-11<br>11:01:00 UTC,192.57 deg<br> (12h50m17.64s),4.04 deg<br> (4d2'25.8''),,,Pointed,Manual, Michelle Tsirou
-GRB 260511A,SVOM-Eclair and GBM,2026-05-11<br>06:13:32 UTC,197.91 deg<br> (13h11m39.48s),-33.81 deg<br> (-33d48'43.2''),,,Pointed,Manual, Michelle Tsirou
-GRB 260510C,SVOM-Eclair and GBM,2026-05-10<br>17:13:42 UTC,157.9934 deg<br> (10h31m58.416s),2.915 deg<br> (+02d54'54''),2026-05-10<br>17:31:33 UTC (T0 + 0.3h),2026-05-10<br>21:52:39 UTC (T0 + 4.65h),Pointed,Automatic/Manual?, Michelle Tsirou
+GRB 260511B,SVOM-Eclair and GBM,2026-05-11<br>11:01:00 UTC,192.57 deg<br> (12h50m17.64s),4.04 deg<br> (4d2'25.8''),2026-05-11<br>19:16:04 (T0 + 8.3h),2026-05-11<br>21:15:40 (T0 + 10.2h),Pointed,Manual, Michelle Tsirou
+GRB 260511A,SVOM-Eclair and GBM,2026-05-11<br>06:13:32 UTC,197.91 deg<br> (13h11m39.48s),-33.81 deg<br> (-33d48'43.2''),2026-05-11<br>21:17:03 (T0 + 15h),2026-05-12<br>00:13:09 (T0 + 18h),Pointed,Manual, Michelle Tsirou
+GRB 260510C,SVOM-Eclair and GBM,2026-05-10<br>17:13:42 UTC,157.9934 deg<br> (10h31m58.416s),2.915 deg<br> (+02d54'54''),2026-05-10<br>17:54:45 UTC (T0 + 0.7h),2026-05-10<br>20:35:38 UTC (T0 + 3.4h),Pointed,Automatic/Manual?, Michelle Tsirou
 GRB 260510B,SVOM-Eclair,2026-05-10<br>12:19:15 UTC,173.2168 deg<br> (11h32m52.032s),-34.5756 deg<br> (-34d34'32.16''),2026-05-10<br>17:31:28 UTC (T0 + 5.2h),2026-05-10<br>23:37:35 UTC (T0 + 11.31h),Pointed,Manual, Michelle Tsirou
 GRB 260509A,SVOM-Eclair,2026-05-09<br>21:51:03 UTC,176.887 deg<br> (11h47m32.88s),0.2095 deg<br> (+00d12'34.2''),2026-05-09<br>21:52:31 UTC (T0 + 0.02h),2026-05-09<br>22:42:34 UTC (T0 + 0.86h),Pointed,Automatic, Michelle Tsirou
 GRB 260421B, SVOM-Eclair,2026-04-21<br>04:13:17 UTC,189.9811 deg<br> (12h39m55.464s),-17.7676 deg<br> (-17d46'03.36''),Cancelled, ,Pointed,Manual,Bernardo Cornejo
