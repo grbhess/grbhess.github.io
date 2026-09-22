@@ -1,8 +1,8 @@
-GRB 260918A, SVOM/ECLAIRS,2026-09-18<br>03:47:15 UTC,354.8016 deg<br> (23h39m12.384s),-8.9544 deg<br> (-08d57'15.84''),Cancelled ,,Pointed,Manual,Ilja Jaroschewski
-GRB 260917B, SVOM/ECLAIRS,2026-09-17<br>03:52:11 UTC,46.8646 deg<br> (03h07m27.504s),25.4836 deg<br> (+25d29'00.96''),2026-09-17<br>23:43:57 UTC (T0 + 19.13h),2026-09-18<br>02:06:22 UTC (T0 + 22.23h),Pointed,Manual,Ilja Jaroschewski
-GRB 260915A, SVOM/ECLAIRS,2026-09-15<br>01:11:53 UTC,8.1295 deg<br> (00h32m31.08s),8.2424 deg<br> (+08d14'32.64''),2026-09-15<br>21:11:32 UTC (T0 + 20.00h),2026-09-16<br>02:14:38 UTC (T0 + 25.05h),Pointed,Manual,Ilja Jaroschewski
-GRB 260914A, SVOM/ECLAIRS,2026-09-14<br>11:12:27 UTC,31.5419 deg<br> (02h06m10.056s),29.2616 deg<br> (+29d15'41.76''),2026-09-14<br>23:26:31 UTC (T0 + 12.25h), 2026-09-15<br>02:16:20 UTC (T0 + 15.0h), Pointed,Manual,Ilja Jaroschewski
-GRB 260909A, SVOM/ECLAIRS,2026-09-09<br>11:17:45 UTC,13.0009 deg<br> (00h52m00.216s),24.2188 deg<br> (+24d13'07.68''),Cancelled (bad weather), , Pointed,Manual,Sofia Bisero
+GRB 260918A, SVOM/ECLAIRs,2026-09-18<br>03:47:15 UTC,354.8016 deg<br> (23h39m12.384s),-8.9544 deg<br> (-08d57'15.84''),Cancelled ,,Pointed,Manual,Ilja Jaroschewski
+GRB 260917B, SVOM/ECLAIRs,2026-09-17<br>03:52:11 UTC,46.8646 deg<br> (03h07m27.504s),25.4836 deg<br> (+25d29'00.96''),2026-09-17<br>23:43:57 UTC (T0 + 19.13h),2026-09-18<br>02:06:22 UTC (T0 + 22.23h),Pointed,Manual,Ilja Jaroschewski
+GRB 260915A, SVOM/ECLAIRs,2026-09-15<br>01:11:53 UTC,8.1295 deg<br> (00h32m31.08s),8.2424 deg<br> (+08d14'32.64''),2026-09-15<br>21:11:32 UTC (T0 + 20.00h),2026-09-16<br>02:14:38 UTC (T0 + 25.05h),Pointed,Manual,Ilja Jaroschewski
+GRB 260914A, SVOM/ECLAIRs,2026-09-14<br>11:12:27 UTC,31.5419 deg<br> (02h06m10.056s),29.2616 deg<br> (+29d15'41.76''),2026-09-14<br>23:26:31 UTC (T0 + 12.25h), 2026-09-15<br>02:16:20 UTC (T0 + 15.0h), Pointed,Manual,Ilja Jaroschewski
+GRB 260909A, SVOM/ECLAIRs,2026-09-09<br>11:17:45 UTC,13.0009 deg<br> (00h52m00.216s),24.2188 deg<br> (+24d13'07.68''),Cancelled (bad weather), , Pointed,Manual,Sofia Bisero
 GRB 260907B,Fermi-GBM,2026-09-07<br>07:55:23 UTC,320.3 deg<br> (21h21m12s),20.03 deg<br> (+20d01'48''),Cancelled (large uncertainty area),,Tiled,Manual,Sofia Bisero
 GRB 260903A,SVOM/ECLAIRs,2026-09-03<br>12:36:46 UTC,25.5619 deg<br> (01h42m14.856s),11.2328 deg<br> (+11d13'58.08''),Cancelled(Short obs. time), , Pointed,Manual,Sofia Bisero
 GRB 260822A,SVOM/ECLAIRs,2026-08-22<br>16:50:36 UTC,2.424 deg<br> (00h09m41.76s),1.3876 deg<br> (+01d23'15.36''),2026-08-23<br>01:58:13 UTC (T0 + 9.13h),2026-08-23<br>04:04:28 UTC (T0 + 11.23h),Pointed,Manual,Michelle Tsirou
