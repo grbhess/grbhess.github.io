@@ -1,6 +1,5 @@
-815240277,Fermi-GBM,2026-11-01<br>15:37:52 UTC,322.23 deg<br> (21h28m55.2s),14.4 deg<br> (+14d24'00''),2026-11-01<br>18:17:47 UTC (T0 + 2.67h),2026-11-01<br>20:48:18 UTC (T0 + 5.17h),Tiled,Manual,
-815070447,Fermi-GBM,2026-10-30<br>16:27:22 UTC,340.52 deg<br> (22h42m04.8s),6.96 deg<br> (+06d57'36''),2026-10-30<br>18:16:17 UTC (T0 + 1.82h),2026-10-30<br>21:56:01 UTC (T0 + 5.48h),Tiled,Manual,
-814930028,Fermi-LAT,2026-10-29<br>01:27:03 UTC,9.6899 deg<br> (00h38m45.576s),35.52 deg<br> (+35d31'12''),2026-10-29<br>20:16:12 UTC (T0 + 18.82h),2026-10-29<br>20:54:05 UTC (T0 + 19.45h),Pointed,Manual,
+GRB 261101B,Fermi-GBM,2026-11-01<br>15:37:52 UTC,322.23 deg<br> (21h28m55.2s),14.4 deg<br> (+14d24'00''),Cancelled,,Tiled,Manual,Pierre Pichard
+GRB 261030A,Fermi-GBM,2026-10-30<br>16:27:22 UTC,340.52 deg<br> (22h42m04.8s),6.96 deg<br> (+06d57'36''),Cancelled (bad weather),,Tiled,Manual,Pierre Pichard
 GRB 261029A,SVOM/ECLAIRS,2026-10-29<br>01:27:04 UTC,8.8858 deg<br> (00h35m32.592s),34.5603 deg<br> (+34d33'37.08''),Cancelled (high redshift),,Pointed,Manual,Pierre Pichard
 GRB 261011A,SWIFT-BAT,2026-10-11<br>13:46:41 UTC,21.9249 deg<br> (01h27m41.976s),-21.5287 deg<br> (-21d31'43.32''),Cancelled (Bad weather), ,Pointed,Manual,Sofia Bisero
 GRB 261007A, SVOM/ECLAIRS, 2026-10-07<br>05:37:58 UTC,11.5787 deg<br> (00h46m18.888s),-17.6698 deg<br> (-17d40'11.28''),Cancelled (high redshift), , Pointed,Manual,Ilja Jaroschewski
