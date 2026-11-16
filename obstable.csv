@@ -1,13 +1,10 @@
-816473458,Fermi-GBM,2026-11-15<br>22:10:53 UTC,5.04 deg<br> (00h20m09.6s),-31.39 deg<br> (-31d23'24''),2026-11-15<br>22:33:56 UTC (T0 + 0.38h),2026-11-16<br>00:06:51 UTC (T0 + 1.93h),Tiled,Manual,
-816473458,Fermi-GBM,2026-11-15<br>22:10:53 UTC,5.88 deg<br> (00h23m31.2s),-31.08 deg<br> (-31d04'48''),2026-11-15<br>22:12:27 UTC (T0 + 0.03h),2026-11-16<br>00:09:46 UTC (T0 + 1.98h),Pointed,Automatic,
-816473458,Fermi-GBM,2026-11-15<br>22:10:53 UTC,9.46 deg<br> (00h37m50.4s),-30.73 deg<br> (-30d43'48''),2026-11-15<br>22:12:56 UTC (T0 + 0.03h),2026-11-16<br>00:23:53 UTC (T0 + 2.22h),Pointed,Automatic,
-sb26111401,SVOM_ECLAIRS,2026-11-14<br>09:32:53 UTC,345.8973 deg<br> (23h03m35.352s),-32.3702 deg<br> (-32d22'12.72''),2026-11-14<br>18:30:00 UTC (T0 + 8.95h),2026-11-14<br>21:26:45 UTC (T0 + 11.9h),Pointed,Manual,
-sb26111302,SVOM_ECLAIRS,2026-11-13<br>14:30:59 UTC,346.3218 deg<br> (23h05m17.232s),5.1434 deg<br> (+05d08'36.24''),2026-11-13<br>18:27:36 UTC (T0 + 3.94h),2026-11-13<br>22:04:45 UTC (T0 + 7.56h),Pointed,Manual,
-GRB 261111A,Fermi-GBM,2026-11-11<br>11:27:07 UTC,55.66 deg<br> (03h42m38.4s),5.53 deg<br> (+05d31'48''),Cancelled (bad weather), ,Tiled,Manual,Ilja Jaroschewski
-GRB 261110A, SVOM_ECLAIRS,2026-11-10<br>11:49:19 UTC,350.7538 deg<br> (23h23m00.912s),33.0385 deg<br> (+33d02'18.6''),Cancelled (bad weather), , Pointed,Manual,Ilja Jaroschewski
-GRB 261108C,SVOM_ECLAIRS,2026-11-08<br>21:18:34 UTC,11.7014 deg<br> (00h46m48.336s),-64.3344 deg<br> (-64d20'03.84''),2026-11-08<br>21:42:56 UTC (T0 + 0.40h),2026-11-09<br>00:47:15 UTC (T0 + 3.48h),Pointed,Manual,Pierre Pichard
-GRB 261108A,SVOM_ECLAIRS,2026-11-08<br>01:13:17 UTC,336.5157 deg<br> (22h26m03.768s),-20.2077 deg<br> (-20d12'27.72''),2026-11-08<br>18:30:19 UTC (T0 + 17.28h),2026-11-08<br>21:41:30 UTC (T0 + 20.47h),Pointed,Manual,Pierre Pichard
-GRB 261104A,SVOM_ECLAIRS,2026-11-04<br>20:36:31 UTC,6.2999 deg<br> (00h25m11.976s),-54.4612 deg<br> (-54d27'40.32''),2026-11-04<br>20:58:36 UTC (T0 + 0.37h),2026-11-05<br>00:52:25 UTC (T0 + 4.27h),Pointed,Manual,Pierre Pichard
+GRB 261114A, SVOM-ECLAIRs,2026-11-14<br>09:32:53 UTC,345.8973 deg<br> (23h03m35.352s),-32.3702 deg<br> (-32d22'12.72''),2026-11-14<br>20:13:24 UTC (T0 +10.68h), 2026-11-14<br>21:43:55 UTC (T0 + 12.18h),  Pointed,Manual, Ilja Jaroschewski
+GRB 261113A, SVOM-ECLAIRs,2026-11-13<br>14:30:59 UTC,346.3218 deg<br> (23h05m17.232s),5.1434 deg<br> (+05d08'36.24''),Cancelled (bad weather), ,Pointed,Manual, Ilja Jaroschewski
+GRB 261111A, Fermi-GBM,2026-11-11<br>11:27:07 UTC,55.66 deg<br> (03h42m38.4s),5.53 deg<br> (+05d31'48''),Cancelled (bad weather), ,Tiled,Manual,Ilja Jaroschewski
+GRB 261110A, SVOM-ECLAIRs,2026-11-10<br>11:49:19 UTC,350.7538 deg<br> (23h23m00.912s),33.0385 deg<br> (+33d02'18.6''),Cancelled (bad weather), , Pointed,Manual,Ilja Jaroschewski
+GRB 261108C, SVOM-ECLAIRs,2026-11-08<br>21:18:34 UTC,11.7014 deg<br> (00h46m48.336s),-64.3344 deg<br> (-64d20'03.84''),2026-11-08<br>21:42:56 UTC (T0 + 0.40h),2026-11-09<br>00:47:15 UTC (T0 + 3.48h),Pointed,Manual,Pierre Pichard
+GRB 261108A, SVOM-ECLAIRs,2026-11-08<br>01:13:17 UTC,336.5157 deg<br> (22h26m03.768s),-20.2077 deg<br> (-20d12'27.72''),2026-11-08<br>18:30:19 UTC (T0 + 17.28h),2026-11-08<br>21:41:30 UTC (T0 + 20.47h),Pointed,Manual,Pierre Pichard
+GRB 261104A, SVOM-ECLAIRs,2026-11-04<br>20:36:31 UTC,6.2999 deg<br> (00h25m11.976s),-54.4612 deg<br> (-54d27'40.32''),2026-11-04<br>20:58:36 UTC (T0 + 0.37h),2026-11-05<br>00:52:25 UTC (T0 + 4.27h),Pointed,Manual,Pierre Pichard
 GRB 261103A, SVOM-ECLAIRs, 2026-11-03<br>06:51:11 UTC, 14.157 deg<br> (0h56m37.68s), 18.701  deg<br> (18d42m3.6s), 2026-11-03<br>18:19:15 UTC (T0 + 12.28h), 2026-11-03<br>23:53:29 UTC (T0 + 18.02h), Pointed, Manual, Pierre Pichard
 GRB 261101B,Fermi-GBM,2026-11-01<br>15:37:52 UTC,322.23 deg<br> (21h28m55.2s),14.4 deg<br> (+14d24'00''),Cancelled (bad weather),,Tiled,Manual,Pierre Pichard
 GRB 261030A,Fermi-GBM,2026-10-30<br>16:27:22 UTC,340.52 deg<br> (22h42m04.8s),6.96 deg<br> (+06d57'36''),Cancelled (bad weather),,Tiled,Manual,Pierre Pichard
