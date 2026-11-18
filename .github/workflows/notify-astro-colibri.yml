@@ -65,12 +65,13 @@ jobs:
         run: |
           python3 -I - <<'PYTHON'
           import os
+          import re
           import smtplib
           import ssl
           import subprocess
           import sys
           from email.message import EmailMessage
-          from email.utils import formataddr, formatdate, getaddresses
+          from email.utils import formataddr, formatdate
 
           TABLE = "obstable.csv"
           REPO = os.environ["GITHUB_REPOSITORY"]
@@ -180,8 +181,15 @@ jobs:
                       + ", ".join("ASTRO_COLIBRI_" + name for name in missing)
                   )
 
-              listed = os.environ["MAIL_TO"].replace(";", ",").replace("\n", ",")
-              recipients = [address for _, address in getaddresses([listed]) if "@" in address]
+              # Plain addresses separated by commas, semicolons or line breaks.
+              # Not email.utils.getaddresses: since Python 3.13 it rejects the
+              # whole list for one stray separator, such as the line break a
+              # pasted secret often ends with.
+              recipients = [
+                  entry.strip("<>")
+                  for entry in re.split(r"[,;\s]+", os.environ["MAIL_TO"])
+                  if "@" in entry
+              ]
               if not recipients:
                   sys.exit("ASTRO_COLIBRI_MAIL_TO holds no email address")
 
